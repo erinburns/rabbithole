@@ -1,0 +1,28 @@
+/* ----------------------------  Story page styles ------------------------ */
+page {
+  margin: 36px auto;
+  width: 100%;
+}
+
+body {
+  margin: 0 auto;
+  width: 95%;
+  background-color: rgb(182,107,75);  /* dark orange */
+}
+
+p{
+  color: #000000;
+  max-width: 100%;
+  line-height: 1.4;
+}
+
+
+h1 {
+  padding-bottom: 5%;
+}
+
+a.inlinelink {
+    text-decoration: none;
+    color: #000000;  /* black same as p */
+    font-style: italic;
+}

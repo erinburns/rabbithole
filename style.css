@@ -1,0 +1,363 @@
+
+/* Typography assignment  */
+/* Down the Rabbit Hole */
+
+page {
+  margin: 36px auto;
+  width: 100%;
+}
+
+body {
+  margin: 0 auto;
+  width: 95%;
+  background-color: rgb(172,190,200);
+}
+
+
+aside {
+  float: left;
+  height: 100%;
+  width: 15%;
+  font-size: 1.2em;
+  padding-right: 8%;
+  padding-left: 5%;
+}
+
+
+/* Book title  */
+h2 {
+  margin-bottom: 40%;
+  font-family: 'Amatic SC', Papyrus, 'Arial Narrow', Arial, sans-serif fantasy;
+  border-right: solid 4px rgb(220,234,227);
+  font-size: 1.7em;
+  color: rgb(0,24,37);   /* dark blue same as p  */
+  text-align: right;
+  padding-right: 5%;
+}
+
+
+header {
+  text-align: center;
+}
+
+
+/* down the rabbit hole */
+h1 {
+  font-family: 'Fredericka the Great', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3.5em;
+  padding-top: 3%;
+}
+
+/* author  */
+h3 {
+  font-family: 'Cabin Sketch', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.4em;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+main {
+    overflow: hidden;
+    padding-right: 5%;
+}
+
+p {
+  font-size: 1.2em;
+  padding-bottom: 3%;
+  line-height: 1.2;
+  font-family: 'Roboto Slab', Cambria, Georgia, serif;
+  color: rgb(0,24,37);
+  max-width: 100%;
+}
+
+/* media queries */
+
+@media screen and (min-width: 1200px){
+  p {
+    max-width: 85%;
+  }
+}
+
+
+
+/* drop cap  */
+p:first-of-type::first-letter{
+font-size: 4em;
+font-weight: bold;
+margin-right: 1%;
+/* border-left: solid 4px rgb(187,219,168);  lime green*/
+border-left: solid 4px rgb(220,234,227);  /* white */
+font-family: 'Fredericka the Great', 'Arial Narrow', Arial, sans-serif;
+padding-left: 2%;
+}
+
+
+/* begin down down down */
+.firstdown {
+  font-family: 'Fredericka the Great', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(0,0,0);
+
+  /* text rotation */
+  /* Safari */
+  -webkit-transform: rotate(45deg);
+
+  /* Firefox */
+  -moz-transform: rotate(45deg);
+
+  /* IE */
+  -ms-transform: rotate(45deg);
+
+  /* Opera */
+  -o-transform: rotate(45deg);
+
+  padding-top: 30%;
+  margin-left: 25%;
+}
+
+
+.seconddown {
+  font-family: 'Fredericka the Great', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(0,0,0);
+
+  /* text rotation */
+  /* Safari */
+  -webkit-transform: rotate(10deg);
+
+  /* Firefox */
+  -moz-transform: rotate(10deg);
+
+  /* IE */
+  -ms-transform: rotate(10deg);
+
+  /* Opera */
+  -o-transform: rotate(10deg);
+
+  padding-bottom: 5%;
+  margin-left: 25%;
+
+}
+
+.thirddown {
+  font-family: 'Fredericka the Great', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(0,0,0);
+
+  /* text rotation */
+  /* Safari */
+  -webkit-transform: rotate(-25deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-25deg);
+
+  /* IE */
+  -ms-transform: rotate(-25deg);
+
+  /* Opera */
+  -o-transform: rotate(-25deg);
+
+  padding-bottom: 20%;
+  margin-left: 25%;
+
+}
+
+.fourthdown {
+  font-family: 'Fredericka the Great', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(0,0,0);
+
+  /* text rotation */
+  /* Safari */
+  -webkit-transform: rotate(25deg);
+
+  /* Firefox */
+  -moz-transform: rotate(25deg);
+
+  /* IE */
+  -ms-transform: rotate(25deg);
+
+  /* Opera */
+  -o-transform: rotate(25deg);
+
+  padding-top: 20%;
+  padding-bottom: 2%;
+  margin-left: 25%;
+
+}
+
+.fifthdown {
+  font-family: 'Fredericka the Great', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(0,0,0);
+
+  /* text rotation */
+  /* Safari */
+  -webkit-transform: rotate(45deg);
+
+  /* Firefox */
+  -moz-transform: rotate(45deg);
+
+  /* IE */
+  -ms-transform: rotate(45deg);
+
+  /* Opera */
+  -o-transform: rotate(45deg);
+
+  padding-top: 30%;
+  margin-left: 25%;
+}
+
+.sixthdown {
+  font-family: 'Fredericka the Great', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(0,0,0);
+
+  /* text rotation */
+  /* Safari */
+  -webkit-transform: rotate(-10deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-10deg);
+
+  /* IE */
+  -ms-transform: rotate(-10deg);
+
+  /* Opera */
+  -o-transform: rotate(-10deg);
+
+  padding-bottom: 10%;
+  margin-left: 25%;
+
+}
+
+/* end down down down */
+
+
+.marmalade {
+  color: rgb(164,70,31);
+  font-weight: bold;
+}
+
+.dear {
+  font-family: 'Cabin Sketch', Cambria, Georgia, serif;
+  font-size: 1.5em;
+  color: #ffffff;
+
+}
+
+.dinah {
+  font-family: 'Cabin Sketch', Cambria, Georgia, serif;
+  font-size: 1.5em;
+  /* color: rgb(213,210,178); */
+  color: #ffffff;
+}
+
+.rabbit {
+  color: #ffffff;
+  font-family: 'Dancing Script', Cambria, Georgia, serif;
+  font-size: 1.3em;
+}
+
+.thump {
+  font-family: 'Cabin Sketch', Cambria, Georgia, serif;
+  font-size: 2.5em;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  line-height: 0;
+}
+
+.landing {
+  text-align: center;
+}
+
+/* last word  */
+.over {
+  font-family: 'Fredericka the Great', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+
+
+/* Nav link styling  */
+a:link {
+  text-decoration: none;
+  color: rgb(0,24,37);  /* dark blue same as p */
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+  border-bottom: solid 3px rgb(220,234,227);
+  color: rgb(0,24,37);  /* dark blue */
+  font-weight: bold;
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+  border-bottom: solid 3px rgb(220,234,227);
+}
+
+a:active a:focus {
+  text-decoration: none;
+  color: rgb(213,210,178);
+  font-weight: bold;
+  border-bottom: solid 3px rgb(220,234,227);
+}
+
+li {
+  font-family: Oswald, Verdana, Geneva, sans-serif;
+  padding-bottom: 6%;
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* begin context page styles */
+
+.context {
+  background-color: rgb(235,240,242);
+}
+
+.contexth2 {
+  margin-bottom: 40%;
+  font-family: 'Amatic SC', Papyrus, 'Arial Narrow', Arial, sans-serif fantasy;
+  border-right: solid 4px rgb(0,24,37);
+  font-size: 1.7em;
+  color: rgb(0,24,37);   /* dark blue same as p  */
+  text-align: right;
+  padding-right: 5%;
+}
+
+.context1stline:first-of-type::first-letter {
+  border-left: solid 4px rgb(0,24,37);  /* black */
+}
+
+
+.contextlink:hover {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+  border-bottom: solid 3px rgb(0,24,37);
+}
+/* end context page styles */
+
+
+
+/* source: Carnegie Mellon University School of Computer Science https://www.cs.cmu.edu/~rgs/alice-I.html */

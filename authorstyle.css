@@ -1,0 +1,149 @@
+/* ----------------------------  Author page styles ------------------------ */
+page {
+  margin: 36px auto;
+  width: 100%;
+}
+
+body {
+  margin: 0 auto;
+  width: 95%;
+  background-color: rgb(213,210,178);
+}
+
+
+main {
+  overflow: hidden;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+aside {
+  float: left;
+  height: 100%;
+  width: 15%;
+  font-size: 1.2em;
+  font-family: Oswald, Verdana, Geneva, sans-serif;
+  padding-right: 8%;
+  padding-left: 5%;
+}
+
+
+/* drop cap  */
+p:first-of-type::first-letter{
+font-size: 4em;
+font-weight: bold;
+margin-right: 1%;
+border-left: solid 3px rgb(0,24,37);
+font-family: 'Fredericka the Great', 'Arial Narrow', Arial, sans-serif;
+padding-left: 3%;
+}
+
+/* quote  */
+h2 {
+  margin-top: 31%;
+  margin-bottom: 40%;
+  font-family: 'Amatic SC', Papyrus, 'Arial Narrow', Arial, sans-serif, fantasy;
+  border-right: solid 3px rgb(0,24,37);
+  font-size: 1.7em;
+  color: rgb(0,24,37);   /*dark blue same as p  */
+  text-align: right;
+  padding-right: 4%;
+}
+
+header {
+  text-align: center;
+}
+
+
+/* Lewis Carroll */
+h1 {
+  font-family: 'Fredericka the Great', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3.5em;
+  padding-top: 3%;
+}
+
+p {
+  font-size: 1.2em;
+  padding-bottom: 3%;
+  line-height: 1.2;
+  font-family: 'Roboto Slab', Cambria, Georgia, serif;
+  color: rgb(0,24,37);
+  max-width: 100%;
+}
+
+
+/* Thanks to CSS Tricks for this code snippet */
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid rgba(0,24,37,0.4);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+/* https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+
+.who {
+  font-size: 1.3em;
+  font-family: 'Cabin Sketch', Cambria, Georgia, serif;
+}
+
+.curious {
+  font-size: 1.3em;
+  font-family: 'Special Elite', Cambria, Georgia, serif;
+}
+
+.booktitle {
+  font-style: italic;
+}
+
+/* begin Nav link styling  */
+a:link {
+  text-decoration: none;
+  color: rgb(0,24,37);  /* dark blue same as p */
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+  border-bottom: solid 2px rgb(235,240,242);
+  color: rgb(0,24,37);  /* gray */
+  font-weight: bold;
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+  border-bottom: solid 2px rgb(164,70,31);
+}
+
+a:active a:focus {
+  text-decoration: none;
+  color: rgb(213,210,178); /* cream */
+  font-weight: bold;
+  border-bottom: solid 2px rgb(213,210,178);
+}
+
+li {
+  padding-bottom: 6%;
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* end nav link styling  */
