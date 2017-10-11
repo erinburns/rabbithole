@@ -1,4 +1,8 @@
 /* ----------------------------  Story page styles ------------------------ */
+
+/* Google fonts import */
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC%7CFredericka+the+Great%7CRoboto+Slab%7CCabin+Sketch%7CBubblegum+Sans%7COswald%7CDancing+Script);
+
 page {
   margin: 36px auto;
   width: 100%;
